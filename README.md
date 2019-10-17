@@ -6,7 +6,7 @@
 
    Suppose **M** is an *m* × *n* matrix whose entries come from the field *K*, which is either the field of real numbers or the field of complex numbers. Then the singular value decomposition of **M** exists, and is a factorization of the form
 
-   ​      $\mathbf{M}=\mathbf{U} \boldsymbol{\Sigma} \mathbf{V}^{*}$  
+    $\mathbf{M}=\mathbf{U} \boldsymbol{\Sigma} \mathbf{V}^{\*}$  
 
    where
 
@@ -69,9 +69,7 @@
 
    * In cal_number_of_feature method, you can set the feature number and in train_km you can set the class number. Alternatively, you can also specify search criteria to calculate the number of features and the number of classes.
    * You can use **plt.show()** display the figure after **fit()**.
-   * 
 
-7. Example
 
    
 
