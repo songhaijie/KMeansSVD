@@ -6,7 +6,7 @@
 
    Suppose **M** is an *m* × *n* matrix whose entries come from the field *K*, which is either the field of real numbers or the field of complex numbers. Then the singular value decomposition of **M** exists, and is a factorization of the form
 
-   ​      $\mathbf{M}=\mathbf{U} \boldsymbol{\Sigma} \mathbf{V}^{*}$  
+   <img src="/Users/didi/Library/Application Support/typora-user-images/image-20191017172919542.png" alt="image-20191017172919542" style="zoom:50%;" />
 
    where
 
@@ -47,17 +47,7 @@
 
 6. flow chart
 
-   ```mermaid
-   graph LR
-   A(start)-->B{if need normalized}
-   B-->|YES|C[rebuld_data]
-   B-->|No|D[replace_id]
-   C-->E[cal_number_of_feature]
-   D-->E
-   E-->H[get_dr_data]
-   H-->F[train_km]
-   F-->G(end)
-   ```
+   ![image-20191017173033137](/Users/didi/Library/Application Support/typora-user-images/image-20191017173033137.png)
 
    * <font color=green1> Data data must be in the following format</font>
 
@@ -69,9 +59,6 @@
 
    * In cal_number_of_feature method, you can set the feature number and in train_km you can set the class number. Alternatively, you can also specify search criteria to calculate the number of features and the number of classes.
    * You can use **plt.show()** display the figure after **fit()**.
-   * 
-
-7. Example
 
    
 
