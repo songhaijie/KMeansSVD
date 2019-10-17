@@ -6,13 +6,9 @@
 
    Suppose **M** is an *m* × *n* matrix whose entries come from the field *K*, which is either the field of real numbers or the field of complex numbers. Then the singular value decomposition of **M** exists, and is a factorization of the form
 
-<<<<<<< HEAD
    <img src="/Users/didi/Library/Application Support/typora-user-images/image-20191017172919542.png" alt="image-20191017172919542" style="zoom:50%;" />
 =======
-    $\mathbf{M}=\mathbf{U} \boldsymbol{\Sigma} \mathbf{V}^{\*}$  
->>>>>>> a77d04d04f1c928cfba033a22d7695a971993ed6
-
-   where
+ where
 
    - **U** is an *m* × *m* [unitary matrix](https://en.wikipedia.org/wiki/Unitary_matrix) over *K* (if *K* = ![\mathbb {R} ](https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc), unitary matrices are [orthogonal matrices](https://en.wikipedia.org/wiki/Orthogonal_matrix)),
    - **Σ** is a [diagonal](https://en.wikipedia.org/wiki/Rectangular_diagonal_matrix) *m* × *n* matrix with non-negative real numbers on the diagonal,
@@ -63,10 +59,6 @@
 
    * In cal_number_of_feature method, you can set the feature number and in train_km you can set the class number. Alternatively, you can also specify search criteria to calculate the number of features and the number of classes.
    * You can use **plt.show()** display the figure after **fit()**.
-<<<<<<< HEAD
-=======
-
->>>>>>> a77d04d04f1c928cfba033a22d7695a971993ed6
 
    
 
