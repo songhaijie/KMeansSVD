@@ -7,7 +7,7 @@
    Suppose **M** is an *m* × *n* matrix whose entries come from the field *K*, which is either the field of real numbers or the field of complex numbers. Then the singular value decomposition of **M** exists, and is a factorization of the form
 
    <img src="photo/image-20191017172919542.png" alt="image-20191017172919542" style="zoom:50%;" />
-=======
+
  where
 
    - **U** is an *m* × *m* [unitary matrix](https://en.wikipedia.org/wiki/Unitary_matrix) over *K* (if *K* = ![\mathbb {R} ](https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc), unitary matrices are [orthogonal matrices](https://en.wikipedia.org/wiki/Orthogonal_matrix)),
