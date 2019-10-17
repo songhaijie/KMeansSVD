@@ -6,7 +6,7 @@
 
    Suppose **M** is an *m* × *n* matrix whose entries come from the field *K*, which is either the field of real numbers or the field of complex numbers. Then the singular value decomposition of **M** exists, and is a factorization of the form
 
-   <img src="/Users/didi/Library/Application Support/typora-user-images/image-20191017172919542.png" alt="image-20191017172919542" style="zoom:50%;" />
+   <img src="photo/image-20191017172919542.png" alt="image-20191017172919542" style="zoom:50%;" />
 =======
  where
 
@@ -47,7 +47,7 @@
 
 6. flow chart
 
-   ![image-20191017173033137](/Users/didi/Library/Application Support/typora-user-images/image-20191017173033137.png)
+   ![image-20191017173033137](photo/image-20191017173033137.png)
 
    * <font color=green1> Data data must be in the following format</font>
 
